@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+}
+.contant{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%), url("photos/backg.png");
+    background-position: center;
+ background-size: cover;
+    height: 100vh;
+}
+.logo{
+    width: 150px;
+    height: 70px;
+    font-size: 35px;
+    float:left;
+    padding-top: 20px;
+    padding-left: 100px;
+ }
+
+ .nav{
+    width: 330px; 
+    float: left;
+    margin-left: 800px;
+    margin-top: 8px;
+    font-size: 23px;
+    
+}
+.btn{
+    width: 90px;
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    font-size: 15px;
+ border-radius: 5px;
+ border-color: red;
+}
+.btan{
+    width: 130px;
+    height: 35px;
+    background: transparent;
+    margin-top: 13px;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+    border: 0.5px solid white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.bodyb{
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    padding-top: 50px;
+  text-align: center;
+
+}
+.bodyb h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 200px;
+    top: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.bodyb p{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+p .pera{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.formt{
+    margin-left: 450px;
+}
+.formt input{
+    width: 350px;
+    height: 55px;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 50%);
+    border: 1px solid white;
+    padding-left: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.formt input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btton{
+    width: 200px;
+    height: 55px;
+    margin-top: 13px;
+    margin-left: 5px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    font-size: 25px;
+ border-radius: 3px;
+ border-color: red;
+}
+
+.fig1{
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+    margin-top: 8px;
+}
+.contentf{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.pera{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  color: white;
+
+}
+.pera h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pera p{
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.img1{
+flex-basis: 50%;
+margin-bottom: 20px;
+}
+.img1 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.fig2{
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+    margin-top: 8px;
+}
+.contentft{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.perag{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  color: white;
+
+}
+.perag h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.perag p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.img2{
+flex-basis: 50%;
+margin-bottom: 20px;
+}
+.img2 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.fig3{
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+    margin-top: 8px;
+}
+.Conf{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.peragra{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  color: white;
+
+}
+.peragra h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.peragra p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.img3{
+flex-basis: 50%;
+margin-bottom: 20px;
+}
+.img3 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.fig4{
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+    margin-top: 8px;
+}
+.Conft{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.peragraph{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  color: white;
+
+}
+.peragraph h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.peragraph p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.img4{
+flex-basis: 50%;
+margin-bottom: 20px;
+}
+.img4 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
